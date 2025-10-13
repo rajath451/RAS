@@ -129,4 +129,12 @@ nav li:first-child{
 .show-search{
     opacity: 1;
     pointer-events: initial;
+
+}
+.search {
+  display: none;
+}
+
+.search.show-search {
+  display: block;
 }
